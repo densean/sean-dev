@@ -5,18 +5,19 @@ import {
 } from "@/redux/actions/PortfolioDetails";
 import axios from "axios";
 import { Dispatch } from "redux";
-
-const API_URL = "http://localhost:3004/portfolioDetails";
-
+import * as API_RESPONSE from "../public/mocks/portfolioDetailsResponse.json";
+// const API_URL = "http://localhost:3004/portfolioDetails";
+const API_URL = "/mocks/portfolioDetailsResponse.json";
+// import "./mocks/"
 export const fetchPortfolioDetails = () => {
 	return async (dispatch: Dispatch) => {
 		dispatch(apiCallStart());
 
 		try {
-			const response = await axios.get(API_URL);
-			console.log(response, "resp");
+			// const response = await axios.get(API_URL);
+			const response = API_RESPONSE;
 
-			dispatch(portfolioCallSuccess(response.data));
+			dispatch(portfolioCallSuccess(response));
 		} catch (error) {
 			dispatch(apiCallFail("Failed to fetch portfolio details"));
 		}
