@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap");
+
+.hero-section {
+	background-color: #222129;
+	height: calc(100vh - 64px);
+	align-items: center;
+
+	.hero-title {
+		color: #ffa620;
+		font-size: 3.5rem;
+		line-height: 3rem;
+		font-family: "Syne", sans-serif;
+		font-optical-sizing: auto;
+
+		@media (min-width: 375px) {
+			font-size: 4rem;
+			line-height: 3.5rem;
+		}
+
+		@media (min-width: 768px) {
+			font-size: 8rem;
+			line-height: 6rem;
+		}
+
+		@media (min-width: 1024px) {
+			font-size: 11rem;
+			line-height: 9rem;
+		}
+
+		@media (min-width: 1280px) {
+			font-size: 12rem;
+			line-height: 10rem;
+		}
+
+		@media (min-width: 1536px) {
+			font-size: 144px;
+		}
+	}
+
+	.hero-picture {
+		position: absolute;
+		background-color: #c3302f;
+		border-radius: 100%;
+		width: 35rem;
+		height: 35rem;
+	}
+}

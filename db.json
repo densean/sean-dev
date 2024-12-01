@@ -1,0 +1,163 @@
+{
+    "portfolioDetails": {
+        "success": true,
+        "status": 200,
+        "error": [],
+        "payload": {
+            "username": "john_doe",
+            "role": "Software Engineer",
+            "about": [
+                {
+                    "id": 101,
+                    "title": "Software Developer",
+                    "description": "A front-end developer with a knack for turning imagination into functional and visually engaging applications.",
+                    "icon": "CodeXml"
+                },
+                {
+                    "id": 202,
+                    "title": "Civil Engineer",
+                    "description": "From blueprints to structures, transforming visions into lasting structural marvels.",
+                    "icon": "HardHat"
+                },
+                {
+                    "id": 303,
+                    "title": "Artist",
+                    "description": "Turning thoughts into vibrant artworks, expressing emotions through creative strokes.",
+                    "icon": "Palette"
+                }
+            ],
+            "professionalExperience": [
+                {
+                    "id": 1,
+                    "companyName": "TechCorp",
+                    "role": "Junior Developer",
+                    "highlights": [
+                        "High sa lights",
+                        "naol"
+                    ],
+                    "startDate": "2019-06-01T00:00:00Z",
+                    "endDate": "2021-05-31T00:00:00Z"
+                },
+                {
+                    "id": 2,
+                    "companyName": "DevSolutions",
+                    "role": "Software Engineer",
+                    "highlights": [
+                        "High sa lights"
+                    ],
+                    "startDate": "2021-06-01T00:00:00Z",
+                    "endDate": "2024-11-01T00:00:00Z"
+                }
+            ],
+            "projects": [
+                {
+                    "id": 1,
+                    "title": "Project A",
+                    "description": "A web-based project management tool that allows teams to track and manage tasks.",
+                    "stacks": [
+                        "React",
+                        "Node.js",
+                        "MongoDB"
+                    ],
+                    "images": [
+                        "https://preview.redd.it/interesting-facts-or-secrets-about-gintama-that-not-much-v0-7wai89dnt8ra1.jpg?auto=webp&s=37995b9467b47c3609709fcac6d91e658f1cc22f",
+                        "https://staticg.sportskeeda.com/editor/2024/11/dff15-17308214950482-1920.jpg?w=640",
+                        "https://animerants.net/wp-content/uploads/2023/01/chainsaw-man-denji-01.png",
+                        "https://pbs.twimg.com/media/D1QguS8VsAEogso.jpg:large"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Project B",
+                    "description": "A mobile app for fitness tracking, allowing users to log workouts and set goals.",
+                    "stacks": [
+                        "Flutter",
+                        "Firebase"
+                    ],
+                    "images": [
+                        "https://c4.wallpaperflare.com/wallpaper/560/855/635/spy-x-family-anya-forger-hd-wallpaper-preview.jpg"
+                    ]
+                }
+            ],
+            "skills": [
+                {
+                    "id": 1,
+                    "title": "JavaScript",
+                    "techStack": "React, Node.js",
+                    "proficiency": 90,
+                    "iconClass": "fa-js",
+                    "description": "test"
+                },
+                {
+                    "id": 2,
+                    "title": "Java",
+                    "techStack": "Spring Boot",
+                    "proficiency": 75,
+                    "iconClass": "fa-java",
+                    "description": "test"
+                }
+            ],
+            "contacts": {
+                "id": 1,
+                "email": "john.doe@example.com",
+                "mobileNumber": "+1234567890",
+                "socialAccount": {
+                    "name": "LinkedIn",
+                    "icon": "fa-linkedin",
+                    "url": "https://linkedin.com/in/johndoe"
+                }
+            },
+            "education": [
+                {
+                    "id": 1,
+                    "university": "Tech University",
+                    "degree": "Bachelor of Science",
+                    "course": "Computer Science",
+                    "startYear": 2015,
+                    "endYear": 2019
+                }
+            ],
+            "certifications": [
+                {
+                    "id": 1,
+                    "title": "Certified Java Developer",
+                    "provider": "Oracle",
+                    "type": "CERTIFICATE",
+                    "startDate": "2022-01-01T00:00:00Z",
+                    "expiryDate": "2025-01-01T00:00:00Z"
+                },
+                {
+                    "id": 2,
+                    "title": "AWS Certified Solutions Architect",
+                    "provider": "Amazon",
+                    "type": "LICENSE",
+                    "startDate": "2021-03-15T00:00:00Z",
+                    "expiryDate": null
+                }
+            ],
+            "testimonials": [
+                {
+                    "name": "John Doe",
+                    "title": "Software Developer",
+                    "company": "TechCorp",
+                    "testimonial": "The experience with this team has been amazing! Their attention to detail and the way they listen to my needs made the project a huge success. Highly recommend!",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Jane Smith",
+                    "title": "Product Manager",
+                    "company": "Global Solutions",
+                    "testimonial": "Working with this team was a fantastic experience. They brought creative solutions to the table and helped us execute a seamless product launch.",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Michael Brown",
+                    "title": "UX/UI Designer",
+                    "company": "DesignHub",
+                    "testimonial": "Their creativity and attention to user experience have truly made a difference in our projects. I'm extremely happy with the work!",
+                    "image": "https://via.placeholder.com/150"
+                }
+            ]
+        }
+    }
+}

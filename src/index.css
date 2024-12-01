@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+h1 {
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+	font-weight: 600;
+}
+
+h5 {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 600;
+}
+
+h6 {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	font-weight: 600;
+}
+
+p {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+a {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 500;
+	color: #3b82f6;
+}
+
+ul,
+ol {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 400;
+	padding-left: 1.5rem;
+}
+
+li {
+	margin-bottom: 0.5rem;
+}
+
+blockquote {
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	font-weight: 500;
+	border-left: 4px solid #d1d5db;
+	padding-left: 1rem;
+	color: #374151;
+}
+
+body {
+	color: #111827;
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+}
