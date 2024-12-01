@@ -1,4 +1,3 @@
-import { Card, CardTitle } from "@/components/ui/card";
 import { IProfessionalExperience } from "./interfaces/IPortfolioDetails";
 
 export const ProfessionalExperience = (props: {

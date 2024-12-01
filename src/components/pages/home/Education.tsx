@@ -1,5 +1,5 @@
 import { IEducation } from "./interfaces/IPortfolioDetails";
-import { FaGraduationCap, FaUniversity, FaBookOpen } from "react-icons/fa"; // Importing icons from react-icons
+import { FaUniversity } from "react-icons/fa"; // Importing icons from react-icons
 
 export const EducationSection = (props: { education: IEducation[] }) => {
 	const { education } = props;

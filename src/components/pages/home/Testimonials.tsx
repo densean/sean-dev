@@ -1,4 +1,3 @@
-import * as React from "react";
 import { ITestimonial } from "./interfaces/IPortfolioDetails";
 import {
 	Carousel,

@@ -3,11 +3,10 @@ import {
 	apiCallStart,
 	portfolioCallSuccess,
 } from "@/redux/actions/PortfolioDetails";
-import axios from "axios";
+// import axios from "axios";
 import { Dispatch } from "redux";
 import * as API_RESPONSE from "../public/mocks/portfolioDetailsResponse.json";
 // const API_URL = "http://localhost:3004/portfolioDetails";
-const API_URL = "/mocks/portfolioDetailsResponse.json";
 // import "./mocks/"
 export const fetchPortfolioDetails = () => {
 	return async (dispatch: Dispatch) => {
