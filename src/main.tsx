@@ -11,10 +11,9 @@ import { Navbar } from "./components/common/Navbar.tsx";
 createRoot(document.getElementById("root")!).render(
 	<Provider store={store}>
 		<StrictMode>
-			<BrowserRouter>
+			<BrowserRouter basename="/sean-dev">
 				<Navbar />
 				<App />
-				{/* <Footer /> */}
 			</BrowserRouter>
 		</StrictMode>
 	</Provider>

@@ -4,9 +4,10 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+	base: "/sean-dev/",
 	plugins: [react()],
 	build: {
-		outDir: "build", // Change 'dist' to 'build'
+		outDir: "build",
 	},
 	resolve: {
 		alias: {
